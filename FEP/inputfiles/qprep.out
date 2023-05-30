@@ -1,0 +1,294 @@
+--------------------------------------------------------------------------------
+Welcome to qprep version: 6.0.1
+ 
+This version was compiled using: GCC version 7.5.0
+ 
+And using the following compiler options: 
+-mtune=generic -march=x86-64 -O3 -Wall -Wtabs -std=legacy -funroll-loops -ffree-line-length-none -fcray-pointer -fall-intrinsics -fstack-protector
+
+ 
+For command line options type qprep --help  or qprep -h at the terminal.
+ 
+If you are using the interactive mode you can type "help"
+at the prompt. To quit type "quit".
+--------------------------------------------------------------------------------
+
+qprep> 
+Reading molecular library OPLS2015.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+ALA      10   0.00      9      0      2      3
+ARG      24   1.00     23      0      6      4
+ARN      23   0.00     22      0      4      4
+ASH      13   0.00     12      0      3      3
+ASN      14   0.00     13      0      4      5
+ASP      12  -1.00     11      0      3      3
+CALA     11  -1.00     10      0      2      2
+CARG     25  -0.00     24      0      6      3
+CARN     24  -0.90     23      0      5      3
+>>> Warning: fractional charge = -0.90000 on group no.  1
+CASH     14  -1.00     13      0      3      3
+CASN     15  -1.00     14      0      4      4
+CASP     13  -2.00     12      0      3      2
+CCYS     12  -1.00     11      0      2      2
+CCYX     11  -1.00     10      0      2      2
+CGLH     17  -1.00     16      0      3      3
+CGLN     18  -1.00     17      0      4      5
+CGLU     16  -2.00     15      0      3      3
+CGLY      8  -1.00      7      0      2      1
+CHID     18  -1.00     18      0      6      2
+CHIE     18  -1.00     18      0      6      2
+CHIP     19  -0.00     19      0      7      2
+CILE     20  -1.00     19      0      2      5
+CLA       1  -1.00      0      0      0    none, creating default
+CLEU     20  -1.00     19      0      2      5
+CLYS     23   0.00     22      0      2      5
+CMET     18  -1.00     17      0      2      3
+CPHE     21  -1.00     21      0      8      7
+CPRO     15  -0.87     15      0      2      3
+>>> Warning: fractional charge = -0.87000 on group no.  1
+CSER     12  -1.00     11      0      2      2
+CTHR     15  -1.00     14      0      2      3
+CTRP     25  -1.00     26      0     11      7
+CTYR     22  -1.00     22      0      8      7
+CVAL     17  -1.00     16      0      2      4
+CYS      11   0.00     10      0      2      3
+CYX      10   0.00      9      0      2      3
+GLH      16   0.00     15      0      3      4
+GLN      17   0.00     16      0      4      6
+GLU      15  -1.00     14      0      3      4
+GLY       7   0.00      6      0      2      2
+HID      17  -0.00     17      0      6      3
+HIE      17  -0.00     17      0      6      3
+HIP      18   1.00     18      0      7      3
+ILE      19   0.00     18      0      2      6
+LEU      19   0.00     18      0      2      6
+LYS      22   1.00     21      0      2      6
+LYN      21   0.00     20      0      2      6
+MET      17   0.00     16      0      2      4
+NALA     12   1.00     11      0      1      3
+NARG     26   2.00     25      0      5      4
+NASH     15   1.00     14      0      2      3
+NASN     16   1.00     15      0      3      5
+NASP     14   0.00     13      0      2      3
+NCYS     13   1.00     12      0      1      3
+NCYX     12   1.00     11      0      1      3
+NGLH     18   1.00     17      0      2      4
+NGLN     19   1.00     18      0      3      6
+NGLU     17   0.00     16      0      2      4
+NGLY      9   1.00      8      0      1      2
+NHID     19   1.00     19      0      5      3
+NHIE     19   1.00     19      0      5      3
+NHIP     20   2.00     20      0      6      3
+NILE     21   1.00     20      0      1      6
+NLEU     21   1.00     20      0      1      6
+NLYS     24   2.00     23      0      1      6
+NMET     19   1.00     18      0      1      4
+NPHE     22   1.00     22      0      7      8
+NPRO     17   1.07     17      0      1      4
+>>> Warning: fractional charge =  1.07000 on group no.  1
+NSER     13   1.00     12      0      1      3
+NTHR     16   1.00     15      0      1      4
+NTRP     26   1.00     27      0     10      8
+NTYR     23   1.00     23      0      7      8
+NVAL     18   1.00     17      0      1      5
+PHE      20   0.00     20      0      8      8
+PRO      14   0.00     14      0      2      4
+SER      11   0.00     10      0      2      3
+SOD       1   1.00      0      0      0      1
+THR      14   0.00     13      0      2      4
+TIP3      3   0.00      3      0      0      1
+HOH       3   0.00      3      0      0      1
+WAT       3   0.00      3      0      0      1
+TRP      24   0.00     25      0     11      8
+TYR      21   0.00     21      0      8      8
+VAL      16   0.00     15      0      2      5
+MG2       7   2.00     18      0      0      1
+LTRP     25  -1.00     26      0     11      7
+Na+       1   1.00      0      0      0    none, creating default
+POP      52   0.00     51      0      3     18
+PO4       6  -2.00      5      0      0      1
+ACE       6  -0.00      5      0      1      2
+NMA       6   0.00      5      0      1      1
+ZN        1   2.00      0      0      0    none, creating default
+
+Accumulated no. of library entries loaded =  91
+
+qprep> 
+Reading molecular library L.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+LIG      45  -0.00     48      0     20     29
+>>> Warning: fractional charge =  0.26010 on group no.  1
+>>> Warning: fractional charge =  0.01860 on group no.  2
+>>> Warning: fractional charge = -0.19910 on group no.  3
+>>> Warning: fractional charge = -0.08500 on group no.  4
+>>> Warning: fractional charge = -0.42120 on group no.  5
+>>> Warning: fractional charge = -0.50000 on group no.  6
+>>> Warning: fractional charge =  0.01830 on group no.  7
+>>> Warning: fractional charge = -0.19000 on group no.  8
+>>> Warning: fractional charge =  0.28550 on group no.  9
+>>> Warning: fractional charge =  0.23750 on group no. 11
+>>> Warning: fractional charge =  0.09960 on group no. 12
+>>> Warning: fractional charge = -0.14300 on group no. 13
+>>> Warning: fractional charge = -0.11500 on group no. 14
+>>> Warning: fractional charge =  0.61500 on group no. 15
+>>> Warning: fractional charge = -0.05020 on group no. 17
+>>> Warning: fractional charge =  0.15000 on group no. 18
+>>> Warning: fractional charge = -0.04910 on group no. 19
+>>> Warning: fractional charge = -0.02800 on group no. 22
+>>> Warning: fractional charge =  0.00800 on group no. 23
+>>> Warning: fractional charge =  0.12300 on group no. 24
+>>> Warning: fractional charge =  0.11500 on group no. 25
+>>> Warning: fractional charge =  0.45000 on group no. 26
+>>> Warning: fractional charge = -0.20000 on group no. 27
+>>> Warning: fractional charge = -0.20000 on group no. 28
+>>> Warning: fractional charge = -0.20000 on group no. 29
+
+Accumulated no. of library entries loaded =  92
+
+qprep> 
+Reading force field parameter file.
+Forcefield name:               OPLS-AA/M
+Forcefield type:               AMBER
+Lennard-Jones combination rule:GEOMETRIC
+Scaling of 1-4 electrostatics: 0.500
+Cut-off rule:                  switching atoms
+Improper potential:            PERIODIC
+Improper generation:           EXPLICIT
+Coulomb constant:              332.0716
+Read  147 atom types
+>>>>> WARNING: No SYBYL name for one or more atom types.
+Read    0 atom type alias names
+Read    0 LJ type 2 pairs
+Read  239 bond types
+Read   62 unique bond parameters
+>>>>> WARNING: No SYBYL bond type for one or more bond types.
+Read  581 angle types
+Read  105  unique angle parameters
+Read 2095 torsion types
+Read  254 unique torsion parameters
+Read  141 improper types
+Force field parameters successfully read.
+
+qprep> 
+PDB file contains  7530 atoms.
+The number of atoms in the topology will be  7530
+molecule    1: ALA     1 - CTYR  487
+molecule    2: LIG   488
+
+Successfully read PDB file with    2 molecules,
+  488 residues total (  488 in solute).
+ 7530 atoms total ( 7530 in solute).
+
+Sequence listing:
+
+ALA  GLH  ALA  VAL  GLN  ILE  GLN  PHE  GLY  LEU  ILE  ASN  CYS  GLY  ASN  LYN 
+TYR  LEU  THR  ALA  GLH  ALA  PHE  GLY  PHE  LYN  VAL  ASN  ALA  SER  ALA  SER 
+SER  LEU  LYN  LYN  LYN  GLN  ILE  TRP  THR  LEU  GLU  GLN  PRO  PRO  ASP  GLU 
+ALA  GLY  SER  ALA  ALA  VAL  CYS  LEU  ARG  SER  HIE  LEU  GLY  ARN  TYR  LEU 
+ALA  ALA  ASH  LYN  ASH  GLY  ASN  VAL  THR  CYS  GLH  ARN  GLH  VAL  PRO  GLY 
+PRO  ASP  CYS  ARG  PHE  LEU  ILE  VAL  ALA  HIE  ASP  ASP  GLY  ARG  TRP  SER 
+LEU  GLN  SER  GLU  ALA  HIE  ARG  ARN  TYR  PHE  GLY  GLY  THR  GLH  ASH  ARN 
+LEU  SER  CYS  PHE  ALA  GLN  THR  VAL  SER  PRO  ALA  GLU  LYS  TRP  SER  VAL 
+HID  ILE  ALA  MET  HIE  PRO  GLN  VAL  ASN  ILE  TYR  SER  VAL  THR  ARN  LYN 
+ARN  TYR  ALA  HIE  LEU  SER  ALA  ARN  PRO  ALA  ASH  GLH  ILE  ALA  VAL  ASH 
+ARN  ASH  VAL  PRO  TRP  GLY  VAL  ASH  SER  LEU  ILE  THR  LEU  ALA  PHE  GLN 
+ASP  GLN  ARG  TYR  SER  VAL  GLN  THR  ALA  ASH  HID  ARN  PHE  LEU  ARN  HID 
+ASH  GLY  ARN  LEU  VAL  ALA  ARN  PRO  GLH  PRO  ALA  THR  GLY  TYR  THR  LEU 
+GLU  PHE  ARG  SER  GLY  LYS  VAL  ALA  PHE  ARG  ASP  CYS  GLU  GLY  ARG  TYR 
+LEU  ALA  PRO  SER  GLY  PRO  SER  GLY  THR  LEU  LYN  ALA  GLY  LYN  ALA  THR 
+LYS  VAL  GLY  LYN  ASH  GLU  LEU  PHE  ALA  LEU  GLU  GLN  SER  CYS  ALA  GLN 
+VAL  VAL  LEU  GLN  ALA  ALA  ASN  GLH  ARN  ASN  VAL  SER  THR  ARN  GLN  GLY 
+MET  ASH  LEU  SER  ALA  ASN  GLN  ASH  GLH  GLH  THR  ASH  GLN  GLH  THR  PHE 
+GLN  LEU  GLH  ILE  ASH  ARN  ASH  THR  LYN  LYN  CYS  ALA  PHE  ARN  THR  HID 
+THR  GLY  LYN  TYR  TRP  THR  LEU  THR  ALA  THR  GLY  GLY  VAL  GLN  SER  THR 
+ALA  SER  SER  LYN  ASN  ALA  SER  CYS  TYR  PHE  ASH  ILE  GLH  TRP  ARN  ASH 
+ARN  ARN  ILE  THR  LEU  ARN  ALA  SER  ASN  GLY  LYN  PHE  VAL  THR  SER  LYN 
+LYN  ASN  GLY  GLN  LEU  ALA  ALA  SER  VAL  GLH  THR  ALA  GLY  ASH  SER  GLH 
+LEU  PHE  LEU  MET  LYN  LEU  ILE  ASN  ARN  PRO  ILE  ILE  VAL  PHE  ARG  GLY 
+GLH  HIE  GLY  PHE  ILE  GLY  CYS  ARN  LYN  VAL  THR  GLY  THR  LEU  ASH  ALA 
+ASN  ARN  SER  SER  TYR  ASH  VAL  PHE  GLN  LEU  GLH  PHE  ASN  ASH  GLY  ALA 
+TYR  ASN  ILE  LYN  ASH  SER  THR  GLY  LYN  TYR  TRP  THR  VAL  GLY  SER  ASH 
+SER  ALA  VAL  THR  SER  SER  GLY  ASH  THR  PRO  VAL  ASH  PHE  PHE  PHE  GLH 
+PHE  CYS  ASH  TYR  ASN  LYN  VAL  ALA  ILE  LYN  VAL  GLY  GLY  ARN  TYR  LEU 
+LYN  GLY  ASH  HIE  ALA  GLY  VAL  LEU  LYN  ALA  SER  ALA  GLH  THR  VAL  ASH 
+PRO  ALA  SER  LEU  TRP  GLH  CTYR LIG 
+
+qprep> 
+Simulation sphere center                =     12.031  18.091   2.352
+Simulation radius                       =     25.000
+qprep> 
+Solvation sphere center                 =     12.031  18.091   2.352
+Radius of sphere in solvent file        =     25.000
+Library entry used to generate solvent  =       HOH 
+No. of molecules in solvent file           =        862
+No. of solvent molecules in the sphere:******
+Minimum distance to solute heavy atoms (solvent_pack):  2.40 A
+No. of solvent molecules to add to the system:   862
+qprep> Assigned 10116 atom types.
+Assigned 10116 atomic charges.
+Made      7614 solute bonds.
+Made         0 extra bonds.
+Made      2586 solvent bonds.
+Made     13595 solute angles.
+Made       862 solvent angles.
+Made     27985 solute torsions.
+Made         0 solvent torsions.
+Made      1567 solute impropers.
+Made         0 solvent impropers.
+Made     19844 entries in the 1-4 neighbour list.
+Made        23 entries in the long-range 1-4 neighbour list.
+Made     24646 entries in list of excluded neighbours.
+Made        11 entries in list of long-range excluded neighbours.
+Made         0 solute hydrogens.
+Made         0 solvent hydrogens.
+Made      975 solute  charge groups comprising a total of   3273 atoms.
+Made      862 solvent charge groups comprising a total of   2586 atoms.
+Skipped  1222excluded charge groups comprising a total of   4257 atoms.
+Effective water radius                     : 22.92
+Topology successfully generated.
+qprep> 
+---------------------------- Writing topology file ---------------------------
+solute atoms                :   7530
+solvent atoms               :   2586
+coordinates                 :  30348
+integer atom codes          :  10116
+solute bonds                :   7614
+solvent bonds               :   2586
+bond parameters             :     44
+solute angles               :  13595
+solvent angles              :    862
+angle parameters            :     86
+torsions                    :  27985
+torsion parameters          :    210
+impropers                   :   1567
+improper parameters         :     55
+charges                     :  10116
+total charge of not excluded:  -2.00
+charge groups               :   1837
+atom type parameters        :    147
+polar LJ pairs              :      0
+neighbour list              :  19844
+long-range neighbour list   :     23
+neighbour exclusion list    :  24646
+long-range exclusions       :     11
+residues                    :   1350
+molecules                   :    864
+Atom type names             :    147
+SYBYL type information      :    147
+excluded atom list          :   4257
+
+qprep> 
+
+PDB file successfully written.
+
+qprep> The current mask contains 10116 atoms.
+Mask cleared.
+qprep> The current mask contains     0 atoms.
+  5859 atoms added to mask which now contains  5859 atoms.
+qprep> 
+
+PDB file successfully written.
+
+qprep> 
